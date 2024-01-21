@@ -1,0 +1,23 @@
+Algoritmo FinDeSemana
+Escribir "Digite el día que es hoy ( En números, ej: Lunes = 1 )"
+Leer dia
+
+Segun dia Hacer
+	1:
+		Escribir "Faltan 5 días para que sea sabado"
+	2:
+		Escribir "Faltan 4 días para que sea sabado"
+	3:
+		Escribir "Faltan 3 días para que sea sabado"
+	4:
+		Escribir "Faltan 2 días para que sea sabado"
+	5:
+		Escribir "Faltan 1 días para que sea sabado"
+	6:
+		Escribir "Es fin de semana"
+	7:
+		Escribir "Es fin de semana"
+	De Otro Modo:
+		Escribir "Digite un día que exista"
+Fin Segun
+FinAlgoritmo

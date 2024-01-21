@@ -1,0 +1,6 @@
+Algoritmo Pares20
+
+  Para i = 0 Hasta 20 Con paso 2 Hacer
+		Escribir i
+	FinPara
+FinAlgoritmo

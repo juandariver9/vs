@@ -1,0 +1,6 @@
+Algoritmo unoacinco
+	Repetir
+		Escribir i
+		i <- i+1
+	Hasta Que i > 5
+FinAlgoritmo

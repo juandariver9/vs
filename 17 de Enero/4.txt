@@ -1,0 +1,14 @@
+Algoritmo SumaAsc 
+	
+	suma <- 0
+	num <- 1
+	
+	Mientras suma <= 100 Hacer  
+		Mostrar "Suma parcial: ", suma
+		suma <- suma + num
+		num <- num + 1
+	Fin Mientras
+	
+	Mostrar "La suma total es: ", suma
+	
+Fin Algoritmo

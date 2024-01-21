@@ -1,0 +1,21 @@
+Algoritmo PromNotas
+	
+	Escribir "Digite la cantidad de notas que desea promediar:"
+	Leer notas
+	
+	Suma = 0
+	Calif = 0
+	
+	Para i = 1 Hasta notas Hacer
+		Escribir "Digite la nota #",i, ":"
+		Leer Calif
+		
+		Suma <- Suma + Calif
+		
+	FinPara
+	Promedio <- Suma / notas
+	
+	Escribir "El promedio entre sus ", notas, " notas es de: ", Promedio
+	
+	
+FinAlgoritmo
