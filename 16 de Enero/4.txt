@@ -1,0 +1,23 @@
+Algoritmo Numero_primo
+	Escribir "Digite el número que desea saber si es primo:"
+	Leer num
+	
+	Si num < 2 Entonces
+		Escribir "El número no es primo"
+	Sino
+		EsPrimo = Verdadero
+		para i = 2 Hasta num-1 Con Paso 1 Hacer
+			Si num % i = 0 Entonces 
+				EsPrimo = Falso
+			FinSi
+		FinPara
+		
+		Si EsPrimo Entonces
+			Escribir "El número ingresado es primo"
+		Sino
+			Escribir "El número ingresado no es primo"
+		FinSi
+	FinSi
+
+
+FinAlgoritmo

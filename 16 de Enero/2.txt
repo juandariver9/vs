@@ -1,0 +1,24 @@
+Algoritmo MayorDe3
+	Repetir
+		Escribir "Digite el primer número"
+		Leer A
+		Escribir "Digite el segundo número"
+		Leer B
+		Escribir "Digite el tercer número"
+		Leer C
+		Escribir "Presiona enter para seguir"
+		Esperar Tecla 
+		Limpiar Pantalla
+		Escribir "No pueden haber dos números iguales "
+	Hasta Que A <> B y A <> C y B <> C
+	
+	Si A > B y A > C Entonces
+		Escribir "El mayor de los tres números es: ", A
+	SiNo
+		Si B > A y B > C Entonces
+			Escribir "El mayor de los tres números es: ", B
+		SiNo
+			Escribir "El mayor de los tres números es: ", C
+		FinSi
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,17 @@
+Algoritmo CalcularPromedio
+    Escribir "Ingrese la cantidad de números: "
+    Leer Cantidad
+    
+    Suma <- 0
+    
+    Para i <- 1 Hasta Cantidad Hacer
+        Escribir "Ingrese el número ", i, ": "
+        Leer Num
+        Suma <- Suma + Num
+    Fin Para
+    
+    Promedio <- Suma / Cantidad
+    
+    Escribir "El promedio de la lista de números es: ", Promedio
+    
+FinAlgoritmo

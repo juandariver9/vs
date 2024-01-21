@@ -1,0 +1,42 @@
+|Algoritmo Zapatos
+	Tenis1 <- 599
+	Tenis2 <- 249
+	Tenis3 <- 827
+	Tenis4 <- 241
+	Escribir 'Bienvenidos, Escojan lo que quieran comprar. Tenemos mucha variedad de zapatos!'
+	Escribir 'Digite la talla de zapatos que desea comprar'
+	Leer talla
+	Zapato <- 0
+	Compra <- 0
+	Repetir
+		Escribir '1.Tenis Samba OG $599'
+		Escribir '2. Tenis Response Runner $249'
+		Escribir '3. Tenis Adizero Adios Pro 3 $827'
+		Escribir '4. Tenis Duramo SL $241'
+		Escribir 'Digite el número que quiere comprar de zapato'
+		Leer Num1
+		Si Num1=1 Entonces
+			Num1 <- Tenis1
+		SiNo
+			Si Num1=2 Entonces
+				Num1 <- Tenis2
+			SiNo
+				Si Num1=3 Entonces
+					Num1 <- Tenis3
+				SiNo
+					Si Num1=4 Entonces
+						Num1 <- Tenis4
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+		Compra <- Compra+Num1
+		Num1 <- +Num1
+		Escribir 'Desea comprar otros zapatos?'
+		Escribir '1. Si'
+		Escribir '2. No'
+		Zapato <- Zapato+1
+		Leer Salida
+	Hasta Que Salida=2
+	Escribir 'Usted compro ', Zapato, ' zapato/s de la talla: ', talla, ' por un valor de: ', Compra
+FinAlgoritmo

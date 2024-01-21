@@ -1,0 +1,11 @@
+Algoritmo ParOImpar
+	Escribir "Digite un número: "
+	Leer num
+	
+	Producto <- num MOD 2
+	Si Producto = 0 Entonces
+		Escribir "El número es par"
+	SiNo
+		Escribir "El número es impar"
+	FinSi
+FinAlgoritmo
